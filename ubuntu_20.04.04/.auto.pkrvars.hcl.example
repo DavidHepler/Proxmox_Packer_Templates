@@ -1,0 +1,59 @@
+# Name of Proxmox Server to login to
+proxmox_hostname = "https://server-name-or-ip:8006"
+
+# Name of Proxmox Admin User
+#proxmox_username = ""
+
+# Password of Proxmox Admin User
+proxmox_password = "password"
+
+#Proxmox node you want to create the template on
+proxmox_node_name = "node-name"
+
+#Skip inscure TLS verification
+#proxmox_insecure_skip_tls_verify = ""
+
+# Description of the Template
+#template_description = ""
+
+# Define Proxmox VM ID (or leave blank for auto-assign)
+vm_id = ""
+
+# Name of the VM Template
+vm_name = "Ubuntu-20.4.4-t"
+
+# Storage Pool to store VM
+vm_storage_pool = "YOUR_STORAGEPOOL"
+
+# Number of VM cores
+#vm_cores = "1"
+
+# Number of VM sockets
+#vm_sockets = "1"
+
+# VM memory size
+#vm_memory = "4096"
+
+# URL of ISO (leave blank if ISO is downloaded)
+#iso_url = ""
+
+# Name of storage pool where ISO is downloaded
+#iso_storage_pool = ""
+
+# Checksum of the ISO
+#iso_checksum = ""
+
+# Full Path of ISO if downloaded
+#iso_file = ""
+
+# Name of the VM Pool you want to assign the template to
+#pool = "Templates"
+
+# Default user to be created on VM
+username = "newuser"
+
+# VM User's password
+user_password = "my-stronge-password!"
+
+# Time zone of the template - https://en.wikipedia.org/wiki/List_of_tz_database_time_zones - Choose from TZ database names
+time_zone = "Europe/Berlin"
