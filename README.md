@@ -1,8 +1,11 @@
-Pre-requirements:
-You need to have a working Proxmox environment
-You need to have Packer installed.
+# Packer Templates for Proxmox
 
-## Packer installation
+Pre-requirements:
+- You need to have a working Proxmox environment
+- You need to have Packer installed (see below for the Packer installation)
+
+## Packer installation - see https://learn.hashicorp.com/tutorials/packer/get-started-install-cli
+
 ### Linux
     # (1) Ensure that your system is up to date, and you have the gnupg, software-properties-common, and curl packages installed
     sudo apt-get update && sudo apt-get install -y gnupg software-properties-common curl
