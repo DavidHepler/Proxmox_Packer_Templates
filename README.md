@@ -1,6 +1,21 @@
 # Packer Templates for Proxmox
+        ,--.           o    ||   |          |              
+        |   |,---.    ,.,---||---|,---.,---.|    ,---.,---.
+        |   |,---|\  / ||   ||   ||---'|   ||    |---'|    
+        `--' `---^ `'  ``---'`   '`---'|---'`---'`---'`    
+        --.--        |              |  |                   
+        |,---.,---.|---.,---.,---.|    ,---.,---.,   .   
+        ||---'|    |   ||   ||   ||    |   ||   ||   |   
+        ``---'`---'`|  '`   '`---'`---'`---'`---|`---|   
+        ,---.,---.,---|                       `---'`---'   
+        ,---||   ||   |                                    
+        `---^`   '`---'                                    
+        ,---.     |                   |    o               
+        |---|.   .|--- ,---.,-.-.,---.|--- .,---.,---.     
+        |   ||   ||    |   || | |,---||    ||   ||   |     
+        `   '`---'`---'`---'` ' '`---^`---'``---'`   '     
 
-Pre-requirements:
+## Pre-requirements:
 - You need to have a working Proxmox environment
 - You need to have Packer installed (see below for the Packer installation)
 
@@ -17,5 +32,7 @@ Pre-requirements:
     sudo apt-get update && sudo apt-get install packer
 
 ### MacOS
-  brew tap hashicorp/tap
-  brew install hashicorp/tap/packer
+    brew tap hashicorp/tap
+    brew install hashicorp/tap/packer
+
+## 
